@@ -1,0 +1,16 @@
+Why not use SQlite for the database? saving as a dat file seems insecure. unencrypted. 
+
+Does it matter, though?
+Hmm.
+
+Aren't gotos bad? Is there a better way to do error handling?
+
+Some lines are kind of unreadable. Abstracting them into functions might be a better option on some lines like commands.c:21. For loops are kind of difficult to understand. 
+If statements are cluttered and almost unreadable. 
+
+
+Why is Shell extern if you're only accessing it in Shell.c? Maybe you're using them in main. hmm.
+
+Maybe enumerate return values to be more clear. 
+
+not dynamic build locations! i guess you can change that with an options file, but not being able to choose where things install is a problem! 
